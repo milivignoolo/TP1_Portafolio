@@ -1,19 +1,18 @@
 <!DOCTYPE html>
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <link rel="icon" type="image/png" href="IMAGENES/tomasmartinez.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="IMAGENES/logopag.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
     <title>Portafolio 2025</title>
 </head>
 
 <body>
-
     <header>
-        <h1>Tomás Martínez</h1>
-        <h2>Analista de datos</h2>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -24,21 +23,30 @@
         </nav>
     </header>
 
-    <img src="IMAGENES/tomasmartinez.jpg" alt="Foto de Tomás Martínez">
-
-    <section id="sobre-mi">
-        <h2>Sobre mí</h2>
-        <p>
-            Soy un apasionado del análisis de datos con experiencia en herramientas como SQL, Power BI y Python. Me interesa transformar datos en información útil para la toma de decisiones. Actualmente, estudio Ingeniería en Sistemas de Información y he desarrollado proyectos enfocados en visualización de datos, modelado de bases de datos y business intelligence. Busco oportunidades para aplicar mis conocimientos en un entorno profesional.
-        </p>
+    <section class="card">
+        <div class="texto">
+            <h1 class="nombre">Tomás Martínez</h1>
+            <h5 class="portafolio">PORTAFOLIO 2025</h5>
+            <h5 class="cargo">Analista de datos</h5>
+        </div>
+        <img src="IMAGENES/tomasmartinez.jpg" alt="Foto de Tomás Martínez" class="imagen">
     </section>
+
+    <h2>SOBRE MI</h2>
+    <p>
+        Soy un apasionado del análisis de datos con experiencia en herramientas como SQL, Power BI y Python. Me interesa transformar datos en información útil para la toma de decisiones. Actualmente, estudio Ingeniería en Sistemas de Información y he desarrollado proyectos enfocados en visualización de datos, modelado de bases de datos y business intelligence. Busco oportunidades para aplicar mis conocimientos en un entorno profesional.
+    </p>
 
     <footer>
         <section id="contacto">
             <h3>Enlaces a redes sociales</h3>
             <ul>
-                <li>LinkedIn: linkedin.com/in/Tomas-Martinez</li>
-                <li>GitHub: github.com/TomasMartinezdev</li>
+                <li>LinkedIn: 
+                    <a href="https://linkedin.com/in/Tomas-Martinez">https://linkedin.com/in/Tomas-Martinez</a>
+                </li>
+                <li>GitHub: 
+                    <a href="https://github.com/TomasMartinezdev">https://github.com/TomasMartinezdev</a>
+                </li>
             </ul>
 
             <h3>Información de contacto</h3>
@@ -48,7 +56,7 @@
             </ul>
         </section>
 
-        <section id="formulario-contacto">
+        <section id="Formulario_de_contacto">
             <h3>Formulario de contacto</h3>
             <form id="contact-form" action="https://formspree.io/f/mldjjlar" method="POST">
                 <label for="nombre">Nombre:</label>
@@ -65,6 +73,6 @@
             <p id="form-message"></p>
         </section>
     </footer>
-
 </body>
 
+</html>

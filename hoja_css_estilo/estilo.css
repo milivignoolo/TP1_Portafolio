@@ -158,27 +158,27 @@ form button:hover {
 
 .card {
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /* Permite que los elementos bajen si no hay espacio */
     align-items: center;
     justify-content: space-between;
     background: #F2E7DD;
     border-radius: 12px;
     padding: 20px;
-    width: 90%;
-    max-width: 650px; 
+    width: 90%; /* Se adapta a la pantalla */
+    max-width: 650px; /* No se vuelve demasiado grande */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     border: 1px solid #5B88B2;
-    gap: 16px; 
+    gap: 16px; /* Ajusta el espacio entre elementos */
 }
 
 .card > * {
-    flex-grow: 1; 
+    flex-grow: 1; /* Hace que los elementos ocupen el mismo espacio */
 }
 
 .texto {
     flex: 1;
-    min-width: 250px; 
+    min-width: 250px; /* Evita que el texto se achique demasiado */
     padding: 10px 20px;
 }
 
@@ -219,39 +219,13 @@ form button:hover {
     margin-right: 20px;
 }
 
-
 @media (max-width: 767px) {
     header nav ul {
-        display: none;
-        flex-direction: column;
+        display: flex;
+        flex-direction: column; /* Los ítems del menú se apilan verticalmente */
         padding: 0;
         margin-top: 10px;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-
-    .menu-toggle:checked + label + ul {
-        display: block;
-    }
-
-    .menu-label {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2em;
-        color: #F2e7dd;
-        cursor: pointer;
-        padding: 10px;
-        background-color: #122c4f;
-        border-radius: 5px;
-    }
-
-   
-    header nav ul.active {
-        display: block;
+        text-align: center;
     }
 
     header nav ul li {
@@ -265,7 +239,7 @@ form button:hover {
     }
 
     .texto {
-        min-width: 200px; 
+        min-width: 200px; /* Ajusta el tamaño de los textos en móviles */
     }
 
     h1, h2 {
@@ -273,28 +247,12 @@ form button:hover {
     }
 
     .imagen {
-        max-width: 80%;  
+        max-width: 80%;  /* Imagen más pequeña en móviles */
         margin: 10px auto;
     }
-}
 
-
-@media (min-width: 768px) {
+    /* Ajusta el menú para que sea visible y funcional */
     header nav ul {
-        display: flex;
-        justify-content: center;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-    header nav label {
-        display: none;
-    }
-
-    header nav ul li {
-        display: inline-block;
-        margin: 1rem;
+        display: block; /* Muestra el menú en pantallas pequeñas */
     }
 }

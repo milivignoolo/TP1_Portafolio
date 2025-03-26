@@ -111,6 +111,12 @@ footer ul li {
     font-family: "Rethink Sans", sans-serif;
 }
 
+footer ul li a {
+    margin: 10px;
+    font-family: "Rethink Sans", sans-serif;
+    color: #F2e7dd;
+}
+
 footer h3 {
     color: #F2e7dd;
     margin-top: 40px;

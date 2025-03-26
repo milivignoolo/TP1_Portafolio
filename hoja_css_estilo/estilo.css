@@ -3,98 +3,100 @@ body {
     color: #000000;
     margin: 0;
     padding: 0;
-    font-family: "Rethink Sans", sans-serif;
 }
 
 h1 {
-    color: #F2e7dd;
+    color: #5B88B2;
     background-color: #122c4f;
-    font-size: 2.5rem;  /* Usando rem en lugar de px */
-    margin: 1rem;
-    padding: 1rem;
+    font-size: 2.5em;
+    margin: 20px;
+    padding: 10px;
     text-align: center;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     font-family: "Commissioner", Times, serif;
 }
 
 h2 {
-    font-size: 1.9rem;
-    margin: 3rem 3rem 1rem;
+    font-size: 1.9em;
+    margin: 90px 50px 20px;
     color: #F2e7dd;
     background-color: #122c4f;
-    padding: 2rem;
+    padding: 30px 30px;
     font-family: "Commissioner", Times, serif;
 }
 
 h4 {
-    font-size: 1.4rem;
+    font-size: 1.4em;
     color: #F2e7dd;
     background-color: #5B88B2;
-    padding: 2rem;
+    padding: 30px 30px;
     font-family: "Rethink Sans", sans-serif;
 }
 
 p {
-    margin: 2rem 5rem;
+    margin: 30px 100px 100px;
     font-size: 1.3rem;
     text-align: justify;
     color: #000000;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 ul {
-    margin-top: 2.5rem;
+    margin-top: 35px;
 }
 
 ul li {
     padding: 0;
-    font-size: 1.2rem;
-    margin: 1.5rem 2.5rem;
+    font-size: 1.2em;
+    margin: 15px 40px;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 header {
     background-color: #5B88B2;
-    padding: 1rem;
+    padding: 10px;
 }
 
 header nav ul {
     list-style: none;
     text-align: center;
-    margin: 1rem;
+    margin: 10px;
     padding: 0;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin: 1.5rem;
+    display: inline;
+    margin: 15px;
 }
 
 header nav ul li a {
     color: #F2e7dd;
     text-decoration: none;
-    font-size: 1.1rem;
-    padding: 0.8rem 1.5rem;
+    font-size: 1.1em;
+    padding: 8px 15px;
     transition: all 0.3s ease;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 header nav ul li a:hover {
     text-decoration: none;
     background-color: #F2e7dd;
     color: #122c4f;
-    border-radius: 0.3rem;
+    border-radius: 5px;
 }
 
 img {
-    max-width: 30%;
+    max-width: 30%; 
     height: auto;
     display: block;
-    margin: 2rem auto;
-    border-radius: 1rem;
+    margin: 20px auto;
+    border-radius: 10%;
 }
 
 footer {
     background-color: #122c4f;
     color: #F2e7dd;
-    padding: 2rem;
+    padding: 20px;
     text-align: center;
 }
 
@@ -105,45 +107,49 @@ footer ul {
 }
 
 footer ul li {
-    margin: 1rem;
+    margin: 10px;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 footer h3 {
     color: #F2e7dd;
-    margin-top: 2.5rem;
+    margin-top: 40px;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 form {
     display: grid;
-    grid-gap: 1rem;
-    max-width: 25rem;
+    grid-gap: 15px;
+    max-width: 400px;
     margin: auto;
-    padding: 2.5rem;
+    padding: 40px;
     background-color: #F2e7dd;
-    border-radius: 0.5rem;
+    border-radius: 8px;
 }
 
 form label {
     font-weight: bold;
     color: #343a40;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 form input, form textarea {
-    padding: 1.2rem;
-    font-size: 1rem;
+    padding: 20px;
+    font-size: 1em;
     border: 1px solid #CCCCCC;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     width: 89%;
 }
 
 form button {
     background-color: #5B88B2;
     color: #F2e7dd;
-    padding: 1rem 2rem;
+    padding: 10px 20px;
     border: none;
-    border-radius: 0.3rem;
-    font-size: 1.2rem;
+    border-radius: 5px;
+    font-size: 1.2em;
     cursor: pointer;
+    font-family: "Rethink Sans", sans-serif;
 }
 
 form button:hover {
@@ -152,52 +158,55 @@ form button:hover {
 
 .card {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     align-items: center;
     justify-content: space-between;
     background: #F2E7DD;
-    border-radius: 1rem;
-    padding: 2rem;
+    border-radius: 12px;
+    padding: 20px;
     width: 90%;
-    max-width: 650px;
+    max-width: 650px; 
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    margin: 2rem auto;
+    margin: 20px auto;
     border: 1px solid #5B88B2;
-    gap: 1rem;
+    gap: 16px; 
 }
 
 .card > * {
-    flex-grow: 1;
+    flex-grow: 1; 
 }
 
 .texto {
     flex: 1;
-    min-width: 250px;
-    padding: 1rem 2rem;
+    min-width: 250px; 
+    padding: 10px 20px;
 }
 
 .nombre {
-    font-size: 2.2rem;
+    font-size: 2em;
     background: #122c4f;
     color: white;
-    padding: 1rem 1.5rem;
-    border-radius: 0.5rem;
+    padding: 10px 15px;
+    border-radius: 8px;
     text-align: center;
+    font-family: "Commissioner", Times, serif;
 }
 
 .portafolio {
-    font-size: 1.3rem;
+    font-size: 1.3em;
     font-weight: bold;
     color: #122c4f;
-    margin-left: 3rem;
+    margin-left: 50px;
+    font-family: "Commissioner", Times, serif;
 }
 
 .cargo {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-weight: bold;
     color: #122c4f;
     font-style: italic;
-    margin-left: 3rem;
+    margin-left: 50px;
+    font-family: "Commissioner", Times, serif;
 }
 
 .imagen {
@@ -207,29 +216,40 @@ form button:hover {
     border: 3px solid #5B88B2;
     object-fit: cover;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
-    margin-right: 2rem;
+    margin-right: 20px;
 }
+
 
 @media (max-width: 767px) {
     header nav ul {
         display: none;
         flex-direction: column;
         padding: 0;
-        margin-top: 1rem;
+        margin-top: 10px;
     }
 
     .menu-toggle {
+        display: none;
+    }
+
+
+    .menu-toggle:checked + label + ul {
+        display: block;
+    }
+
+    .menu-label {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 2.5rem;
+        font-size: 2em;
         color: #F2e7dd;
         cursor: pointer;
-        padding: 1rem;
+        padding: 10px;
         background-color: #122c4f;
-        border-radius: 0.5rem;
+        border-radius: 5px;
     }
 
+   
     header nav ul.active {
         display: block;
     }
@@ -245,15 +265,36 @@ form button:hover {
     }
 
     .texto {
-        min-width: 200px;
+        min-width: 200px; 
     }
 
     h1, h2 {
-        font-size: 1.8rem;
+        font-size: 1.8em;
     }
 
     .imagen {
-        max-width: 80%;
-        margin: 1rem auto;
+        max-width: 80%;  
+        margin: 10px auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+    header nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    header nav label {
+        display: none;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        margin: 1rem;
     }
 }
